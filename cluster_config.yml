@@ -1,0 +1,12 @@
+# cluster_config.yml - cluster configuration
+__default__:
+    account: ctbrowngrp
+    partition: bmh
+    mail-type: FAIL,TIME_LIMIT
+    mail-user: ntpierce@ucdavis.edu
+    time: 24:00:00
+    nodes: 1
+    ntasks-per-node: 1
+    job-name: "{rule}" #.w{wildcards}"
+    logdir: "/home/ntpierce/2022-magsearch-tr/slurm-logs"
+
